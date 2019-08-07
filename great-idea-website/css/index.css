@@ -64,16 +64,31 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.header{
 
+	
+	width: auto;
+	height: 80px;
+	
+}
 .header nav a{
 	padding: 30px;
 	display: inline-block;
 	color: lightgrey;
 	text-decoration: none;
 }
-.header img .logo{
-	
+.header-content{
+	display: inline-block;
 }
+.header-content nav{
+	display: inline-block;
+}
+h1{
+	font-size: 90px;
+}
+
+
+
 .middle-img{
 	display: inline-block;
 	padding: 20px;
@@ -87,8 +102,9 @@ footer .copyright{
 	padding: 50px;
 	text-align: center;
 }
-div .bottom-content h3{
-	column-count: 3;
+.bottom-content .item{
+	position: relative;
+	display: inline;
 }
 
 
